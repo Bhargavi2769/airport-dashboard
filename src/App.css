@@ -1,0 +1,154 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  border-bottom:1px solid  #ccc;
+}
+
+.heading {
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  background-size: cover;
+}
+
+.sidebar {
+  width: 20vw;
+  padding: 20px;
+  border-right: 1px solid rgb(205, 206, 198);
+  
+}
+  
+.other-section {
+  margin-top: 10px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.airport-list {
+  padding: 12px;
+  border: none;
+}
+
+.airport-page {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse:separate;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0053b3;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.upload-section {
+  display: flex;
+  align-items: center;
+}
+
+.upload-section label {
+  margin-right: 10px;
+}
+
+.services {
+  margin-top: 20px;
+}
+
+.services hr {
+  margin: 20px 0;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.not-found-img {
+  width: 400px;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link-1 {
+  color: black;
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.airport-list .spectrum-ActionButton {
+  color: #0073e6; /* Custom icon color */
+}
+
+.airport-list .spectrum-ActionButton:hover {
+  color: #005bb5; /* Darker color on hover */
+}
+
+.airport-list .spectrum-ActionButton:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #005bb5;
+}
+
+
+.airport-page {
+  padding: 20px;
+}
+
+.terminal-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
